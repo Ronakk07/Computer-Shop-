@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Login Page</title>
+  <!-- Bootstrap core CSS-->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template-->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- Custom styles for this template-->
+  <link href="assets/css/sb-admin.css" rel="stylesheet">
+  </head>
+<style>
+p{
+  white-space: pre-wrap;
+  word-spacing: 0.5px;
+}
+h1{
+  padding-top: 10px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+    background: -webkit-linear-gradient(top, #0033cc, #33ccff);
+    color: white;
+    border: 2px solid #008CBA;
+    border-radius: 8px;
+    width:100%;
+}
+.button1:hover {
+  background: -webkit-linear-gradient(top, #009933, #ccff33);
+  color: white;
+}
+hr{
+  border-color:yellow;
+  border-width: 2px;
+}
+body{
+  background: url("Images/Comps/slide2.jpg");
+}
+a{
+  float:right;
+}
+</style>
+  <!-- Login Divisions -->
+  <body class="bg-dark">
+    <div class="container"><br>
+ <a href="index.html" class="btn btn-danger">Home</a>
+      <div class="card card-login mx-auto mt-5" id="demo1">
+        <div class="box" style="width:400px;">
+          <h1><center>Login</center></h1>
+          <p> If you are Already a Customer, then Please Login here!
+                    </p>
+           <hr>
+</div>
+        <!-- <div class="card-header"></div> -->
+        <div class="card-body">
+          <form action="connectivity1.php" method="POST">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Username</label>
+              <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+              <input class ="form-control" id="exampleInputEmail1" type="text" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Password</label>
+              <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+              <input class ="form-control" id="exampleInputPassword1" type="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox"> Remember Password</label>
+              </div>
+            </div>
+            <!-- <a class="btn btn-primary btn-block" href="index.html">Login</a> -->
+            <input type="Submit" name="button1" value="Submit" class="button button1">
+          <!-- <div class="text-center">
+            <a class="d-block small mt-3" href="register.html">Register an Account</a>
+            <a class="d-block small" href="forgot-password.html">Forgot Password?</a>
+          </div>
+        </div> -->
+      </form>
+
+      </div>
+      </div>
+
+    </body>
+  </html>

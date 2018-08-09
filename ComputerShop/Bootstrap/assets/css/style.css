@@ -1,0 +1,9 @@
+
+p:first-letter{
+	font-size: 50px;
+	color:#007ae6;
+}
+#wss{
+opacity: 0;
+transition: opacity 1.0s linear 0s;
+}

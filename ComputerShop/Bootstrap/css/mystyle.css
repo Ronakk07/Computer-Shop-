@@ -1,0 +1,45 @@
+.top_bar{background:#F26522;padding: 5px 0;}
+
+.social-icons{margin-right: 5px;}
+
+.contact_info{color: white;font-size: 16px;}
+
+.my_menu {margin-top: 37px;}
+
+.my_menu .navbar-default{background:none; border: none;}
+
+.my_menu .navbar-nav .active a,  .my_menu .navbar-nav .active a:hover{background:#F26522;color: #FFFF ;}
+
+.my_menu .navbar-nav .active a:hover,
+
+.my_menu .navbar-nav li a:hover{background:#F26522;color: #FFFF ;}
+
+@media (max-width: 1200px){
+	.my_menu .pull-right{float: none !important;}
+}
+
+.languages{margin-top: 45px;}
+
+.our_courses{background: radial-gradient(circle, #009cde, #003087); padding: 45px 0;}
+
+.our_courses h1{color: white;}
+
+.our_courses .top_margin{margin-top: 35px;}
+
+.footer{background:#333333;padding: 27px 0; margin-top: 40px;}
+
+.footer p{color: white; margin-top: 10px;margin-bottom: 5px;}
+
+.footer{color: white;}
+
+.footer ul{list-style: none;margin: 0;padding: 0;}
+
+.footer ul li a{color: white;font-size:15px;}
+
+@media (max-width: 600px;){
+	.our_courses [class*"="col-"]{
+		margin-bottom: 36px;
+	}
+}
+
+
